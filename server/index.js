@@ -24,7 +24,7 @@ app.use(cors(
 
 
   {
-    origin:['aqarukum.vercel.app'],
+    origin:['https://aqarukum-api.vercel.app/'],
     methods:["POST","GET"],
     credentials:"true"
   }
