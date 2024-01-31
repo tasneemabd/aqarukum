@@ -22,12 +22,6 @@ mongoose
   
 app.use(cors(
 
-
-  {
-    origin:['https://aqarukum-api.vercel.app/'],
-    methods:["POST","GET"],
-    credentials:"true"
-  }
 ));
 app.use(express.json());
 app.use("/users", Routes);
